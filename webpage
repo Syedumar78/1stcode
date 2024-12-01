@@ -1,0 +1,2 @@
+kulsum = "i love u my babe"
+print(kulsum)

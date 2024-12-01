@@ -1,38 +1,52 @@
-Syed = 'umar'
-print(type(Syed))
-#-------------------#
-syed_umar =("   'average'")
-cleaned_sting = syed_umar.strip()
-print(cleaned_sting)
-#--------------------------#
-Umar = 890
-print(type(Umar))
+#----What is the correct syntax to output the type of a variable or object in Python ?---------# 	
+Syed_umar = 10
+print(type(Syed_umar))
 #---------------------------------#
-_syed = 900.90
-print(type(_syed))
-#----------------------------------#
-_umar = "    ('syed, umar', 'NAWAZ')  "
-upper_case_string = _umar.upper()
-print(upper_case_string)
-lower_case_string = _umar.lower()
-print(lower_case_string)
-cleaned_string = _umar.strip()
-print(cleaned_string)
-#------------------------------#
-_mar = "('syed, umar', 'python')  "
-new_mar_string = _mar.replace('python', "NAWAZ")
-print(new_mar_string)
-#---------------------------------#
-my_tuple = (1, "hello", 3.14)
-print(my_tuple[1])  # Output: "hello"
-#-------------------------------------#
-my_list = [189, 59999, 499999093, 5000000,]
-print(my_list)
-print(my_list[0])
-print(f"in my list the 1st number is {my_list[0]} and the last number is {my_list[3]}")
-#----------------------------------------#
-_My_tuple = (1000, 2000, 3000, 5000,)
-print(_My_tuple)
-print(_My_tuple[2])
-print(f"my first number is {_My_tuple[1]} and the last one is {_My_tuple[3]}")
-#-----------------------------------------#
+_Syed_umar = 1.20
+print(type(_Syed_umar))
+#------------------#
+_Umar = 'lasson'
+print(type(_Umar))
+#----Which method can be used to remove any whitespace from both the beginning and the end of a string ?---#
+syedumar = "                            'assalamu-alaikum wahrahmatullahi wo barkatuhu'                     "
+cleaned_syedumar = syedumar.strip()
+print(cleaned_syedumar)
+#-------------Which method can be used to return a string in upper case letters ?-------#
+__name__ = "  'syed umar' "#
+upper_aim = __name__.upper()
+print(upper_aim)
+#--------Which method can be used to return a string in lower case letters ?--------------#
+_Icony = "'BGMI'"
+lower_Icony = _Icony.lower()
+print(lower_Icony)
+#-----------Which method can be used to replace parts of a string ?-------------#
+_Umariconic_ = " 'syed nawaz', 'syed muhit'"
+_umariconic = _Umariconic_.replace('syed nawaz', 'syed umar',)
+print(_umariconic) 
+#--------------------tuples operations --------------------------------------------------------------------#
+fruits = ('apple', 'banana', 'cherry', 'date')
+print(fruits)
+print( "first friuts:",   fruits[0])  
+print("last fruits:", fruits[2])
+print("number of fruits:", len(fruits))
+print("All fruits:",)
+for fruit in fruits:
+    print(fruit)
+if 'banana' in fruits:
+    print("banana is in fruits", fruits[1])
+    add_fruits = ('rasberry', 'kiwi')
+total_fruits = (fruits + add_fruits)
+print(total_fruits)
+
+#get  ASCIIletters
+#import string
+#ascii_letters = string.ascii_letters + string.digits + string.punctuation
+#acsii_letters = string.ascii_lowercase
+#sacii_letters = string.ascii_uppercase
+#ii_as = string.punctuation
+#asiiic= string.digits
+#print(ascii_letters)
+#print(sacii_letters)
+#print(acsii_letters)
+#print(ii_as)
+#print(asiiic)

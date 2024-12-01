@@ -48,7 +48,7 @@ user_input = input("Enter your favorite food name?:")
 print("your favorite food name is "+ user_input)
 #------8th programm--user_input---in--conditional--statements---------integer--#
 _Input =input("enter a number :  ")
-number = int(_Input)
+number = float(_Input)
 if number >= 1000000000000000000000000000000000 :
     print("you have entered the number out of the limit ")
 elif number <= 1000000000000000000000000000000000 :
@@ -56,12 +56,12 @@ elif number <= 1000000000000000000000000000000000 :
 else :
     print("WRONG CLACULATION")
 #------------9th programm--user_input---in--conditional--statment----string--#
-human_input = input("Enter a word : ")
+human_input = input("Enter a word : ") 
 if human_input == ("hello") :
     print("hi buddy")
 elif human_input == ("bye") :
     print("good bye buddy ")
-else :
+else :  
     print("the give input is wrong")
 #-----------10th programm-------#
 num = int(input("input a number:"))
@@ -69,9 +69,3 @@ if num > 0:
     print("it is positive number")
 else :
     print("it is a negative number ")
-    x = 1
-
-
-
-
-
