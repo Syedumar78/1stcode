@@ -38,15 +38,15 @@ if 'banana' in fruits:
 total_fruits = (fruits + add_fruits)
 print(total_fruits)
 
-#get  ASCIIletters
-#import string
-#ascii_letters = string.ascii_letters + string.digits + string.punctuation
-#acsii_letters = string.ascii_lowercase
-#sacii_letters = string.ascii_uppercase
-#ii_as = string.punctuation
-#asiiic= string.digits
-#print(ascii_letters)
-#print(sacii_letters)
-#print(acsii_letters)
-#print(ii_as)
-#print(asiiic)
+get  ASCIIletters
+import string
+ascii_letters = string.ascii_letters + string.digits + string.punctuation
+acsii_letters = string.ascii_lowercase
+sacii_letters = string.ascii_uppercase
+ii_as = string.punctuation
+asiiic= string.digits
+print(ascii_letters)
+print(sacii_letters)
+print(acsii_letters)
+print(ii_as)
+print(asiiic)
